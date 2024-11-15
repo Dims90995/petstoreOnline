@@ -1,0 +1,24 @@
+body {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  .container {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: center; /* Centers content horizontally */
+  }
+  .container img {
+    max-width: 150px; /* Set a suitable width for the image */
+    height: auto;
+    margin-right: 20px; /* Adds space between the image and text */
+  }
+  .container p {
+    font-size: 18px; /* Adjust text size */
+    line-height: 1.5;
+  }
+  
