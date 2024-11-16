@@ -3,22 +3,36 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #C1E1C1;
   }
-
+  
+  h1 {
+    font-size: 70px;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
   .container {
     display: flex;
-    align-items: center; /* Aligns items vertically in the center */
-    justify-content: center; /* Centers content horizontally */
+    align-items: center; 
+    justify-content: center; 
   }
+  
   .container img {
-    max-width: 150px; /* Set a suitable width for the image */
+    max-width: 150px; 
     height: auto;
-    margin-right: 20px; /* Adds space between the image and text */
+    margin-right: 20px; 
   }
+  
   .container p {
-    font-size: 18px; /* Adjust text size */
+    font-size: 18px; 
     line-height: 1.5;
   }
+  
   
