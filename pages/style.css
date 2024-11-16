@@ -21,6 +21,9 @@ p {
 
 ol {
     font-size: 25px;
-    line-height: 1.5
     ;
+}
+
+li {
+    margin-bottom: 10px;
 }
