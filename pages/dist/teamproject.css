@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-size: 6rem;
+}
+
+p {
+  font-size: 64rem;
+  color: black;
+}
