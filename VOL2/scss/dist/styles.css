@@ -17,18 +17,22 @@ header .headerimg {
 }
 
 .imgcard {
-  border-radius: 10px;
+  width: 100%;
+  /* Make the image responsive */
+  height: auto;
+  /* Preserve aspect ratio */
+  border-radius: 5px;
+  /* Optional: Add rounding to the image */
 }
 
 .imgstyle {
-  height: 281px;
-  width: 271px;
+  width: auto;
 }
 
 .nav {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
   border: solid black 1px;
   border-radius: 20px;
   width: 240px;
@@ -47,19 +51,51 @@ header .headerimg {
 
 .card {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   border: solid black 2px;
   border-radius: 10px;
   width: 278px;
-  height: 193px;
+  height: auto;
   text-align: center;
+  padding: 10px;
+  gap: 10px;
+  /* Add spacing between the image and text */
 }
 
 .cardie {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: auto;
+  padding: 5px;
+  gap: 40px;
+}
+
+.main-container {
+  display: flex;
+  gap: 20px;
+  /* Adjust spacing between nav and cards */
+  align-items: flex-start;
+  /* Align navigation and cards at the top */
+  padding-top: 10px;
+}
+
+.card h3 {
+  margin: 5px 0;
+  /* Adjust spacing above and below the text */
+}
+
+.card p {
+  margin: 0;
+  /* Remove default margin for the paragraph */
+}
+
+.card img {
+  width: 100%;
+  /* Make the image responsive */
+  height: auto;
+  /* Preserve aspect ratio */
+  border-radius: 5px;
+  /* Optional: Add rounding to the image */
 }
