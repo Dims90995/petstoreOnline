@@ -4,32 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Store</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="../photos/D_mainlogo.jpg">
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="icon" href="../photos/D_mainlogo.jpg" />
   </head>
   <body>
-    <header><h1>Full stack course pet store</h1></header>
-    <img src="../photos/O_HomePic.png" alt="A dog and a cat in christmas" class="main-image"/>
-    <div>
-      <h2>Our animals</h2>
-      <a href="CatPage.html">
-        <img src="../photos/O_MainCatPic.png" alt="Link to cat page" class="inline-image link-image"/>
+    <header class="top-nav">
+      <a href="Homepage.html">
+        <img src="../photos/D_mainlogo.jpg" alt="Pet Store Logo" class="logo" />
       </a>
-    </div>
-    <div>
-      <a href="RabbitPage.html">
-        <img src="../photos/O_MainRabbitPic.png" alt="Link to rabbit page" class="inline-image link-image"/>
-      </a>
-    </div>
-    <div>
-      <a href="GershepardPage.html">
-        <img src="../photos/D_germandog.jpg" alt="Link to german shepard page" class="inline-image link-image"/>
-      </a>
-    </div>
-    <div>
-      <a href="YorkiePage.html">
-        <img src="../photos/D_SON1481-Enhanced-NR.jpg" alt="Link to yorkie page" class="inline-image link-image"/>
-      </a>
-    </div>
+      <h1>Pet Store</h1>
+    </header>
+
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="HomePage.html">Home</a></li>
+          <li><a href="CatPage.html">Cats</a></li>
+          <li><a href="RabbitPage.html">Rabbits</a></li>
+          <li><a href="GershepardPage.html">German Shepards</a></li>
+          <li><a href="YorkiePage.html">Yorkies</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <section class="hero">
+        <img
+          src="../photos/O_HomePic.png"
+          alt="A dog and a cat in christmas"
+          class="main-image"
+        />
+      </section>
+      <section class="card-container">
+        <h2>Our Animals</h2>
+        <div class="cards">
+          <div class="card">
+            <a href="CatPage.html">
+              <img src="../photos/O_CatPageHero.png" alt="Cat Page" />
+              <div class="card-title">Cat</div>
+              <div class="card-content">
+                <p>
+                  Learn more about our cute and friendly cats! They are playful,
+                  loving, and always ready to cuddle.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="RabbitPage.html">
+              <img src="../photos/O_RabbitPageHero.png" alt="Rabbit Page" />
+              <div class="card-title">Rabbit</div>
+              <div class="card-content">
+                <p>
+                  Our adorable rabbits are the perfect companions for anyone
+                  looking for a small, quiet pet.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="GershepardPage.html">
+              <img src="../photos/D_GershepardPageHero.png" alt="German Shepard Page" />
+              <div class="card-title">German Shepherd</div>
+              <div class="card-content">
+                <p>
+                  German Shepherds are loyal, intelligent, and versatile. They
+                  make excellent working dogs and family pets.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="YorkiePage.html">
+              <img
+                src="../photos/D_YorkiePageHero.png"
+                alt="Yorkie Page"
+              />
+              <div class="card-title">Yorkie</div>
+              <div class="card-content">
+                <p>
+                  Yorkies are small, energetic, and affectionate dogs. They're
+                  perfect for families and individuals who want a small
+                  companion.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
