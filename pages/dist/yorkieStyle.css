@@ -58,7 +58,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: calc(100%-80px);
+  max-width: calc(100% - 80px);
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -128,7 +128,7 @@ main .card-container .cards .card {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s ease;
-  width: calc(100%-20px);
+  width: calc(100% - 20px);
   max-width: 250px;
   text-align: center;
   padding: 20px;
@@ -148,14 +148,14 @@ main .card-container .cards .card a {
   text-decoration: none;
 }
 main .card-container .cards .card .card-title {
-  font-style: 20px;
+  font-size: 20px;
   font-weight: bold;
   color: #2196f3;
   margin-top: 15px;
   margin-bottom: 10px;
 }
 main .card-container .cards .card .card-content {
-  font-style: 16px;
+  font-size: 16px;
   color: #555;
   margin-bottom: 15px;
   line-height: 1.5;
